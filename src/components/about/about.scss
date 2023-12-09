@@ -1,0 +1,63 @@
+@import "../../app.scss";
+
+.about {
+  background: linear-gradient(15deg,  #492451, #0b0b18,);
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    padding: 0 20px 0 0;
+    text-align: justify;
+    text-indent: 3em;
+    font-size: 21px;
+    line-height: 1.4;
+    color: #cd4900;
+
+
+    @include mobile {
+      line-height: 1;
+      font-size: 19px;
+      padding: 5px;
+      margin: 80px 10px 10px 10px;
+      color: white;
+      text-align: center;
+      text-indent: 0;
+    }
+  }
+
+  .aboutimg {
+    display: flex;
+
+    @include mobile {
+      display: none;
+    }
+
+    img {
+      margin: auto 27px;
+      width: 500px;
+      height: 550px;
+      border-radius: 100px;
+    }
+  }
+
+  .buttons {
+    display: flex;
+
+    button {
+      cursor: pointer;
+      font-size: 30px;
+      padding: 10px;
+      margin: auto;
+      border-radius: 20px;
+      @include mobile {
+        scale: 0.8;
+        font-size: 20px;
+      }
+    }
+  }
+}
