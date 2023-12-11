@@ -122,7 +122,7 @@ const Portfolio = () => {
             />
           </a>
           <a
-            href="https://www.youtube.com/@vaishnavpremanandan3785"
+            href="https://www.youtube.com"
             target="_blank"
           >
             <motion.img
