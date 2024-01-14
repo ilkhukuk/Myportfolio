@@ -9,14 +9,14 @@
   margin: auto;
 
   p {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 50px;
     padding: 0 20px 0 0;
     text-align: justify;
     text-indent: 3em;
-    font-size: 21px;
+    font-size: 20px;
     line-height: 1.4;
-    color: #cd4900;
+    color: #fd5400;
+    text-shadow: 0px 0px 3px rgb(0, 0, 0);
 
 
     @include mobile {
