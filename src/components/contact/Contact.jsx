@@ -45,8 +45,7 @@ const Contact = () => {
         }
       );
 
-      console.log(formRef.current)
-
+    console.log(formRef.current);
   };
 
   return (
